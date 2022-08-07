@@ -3,6 +3,17 @@ import ipaddress
 from scapy.all import srp
 from scapy.layers.l2 import ARP
 from scapy.layers.l2 import ARP ,Ether
+
+def banner():
+    print("""%s
+            |  / ||   | |------| |     | |    | |----| --------- ---------
+            | /  | |  | |      | |     | |    | |    | |             |  
+            |/   |  | | |      | |  |  | |----| |    | |-------|     | 
+            ||   |   || |      | | | | | |    | |    |         |     |
+            | |  |    | |------| ||   || |    | |----| --------|     |
+            @ developed by mayank
+                           """)
+banner()
 target=sys.argv[1]
 #a list to sstore hosts
 print("demo:python3 arpfinder.py 192.168.159.0/24")
