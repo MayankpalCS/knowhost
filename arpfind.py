@@ -5,7 +5,7 @@ from scapy.layers.l2 import ARP
 from scapy.layers.l2 import ARP ,Ether
 target=sys.argv[1]
 #a list to sstore hosts
-print("demo:python3 arpfinder.py 192.168.159.0/24
+print("demo:python3 arpfinder.py 192.168.159.0/24")
 online_host=[]
 #ff:ff:ff:ff:ff:ff is broadcast adress
 ether=Ether(dst="ff:ff:ff:ff:ff:ff")
