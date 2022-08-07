@@ -10,7 +10,7 @@ online_host=[]
 #ff:ff:ff:ff:ff:ff is broadcast adress
 ether=Ether(dst="ff:ff:ff:ff:ff:ff")
 arp=ARP(pdst=target)
-enscapsulating ip and arp packets
+#enscapsulating ip and arp packets
 packet=ether/arp
 
 #setting timeout 
